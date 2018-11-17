@@ -48,6 +48,10 @@ body {
     height: 75px;
 }
 
+.logo:hover {
+    animation: fadeIn 2s;
+}
+
 .text-box {
     position: absolute;
     top: 50%;
@@ -106,5 +110,14 @@ body {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
