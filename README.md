@@ -1,3 +1,3 @@
-# Advanced-CSS
+# Technology Template
 
-This is a template I am creating using CSS.
+This is a template I am creating for technology websites.
