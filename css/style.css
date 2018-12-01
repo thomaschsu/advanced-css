@@ -38,13 +38,13 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 95vh, 0% 75vh);
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 40px;
     left: 40px;
 }
 
-.logo {
+.header__logo {
     height: 75px;
 }
 
@@ -52,7 +52,7 @@ body {
     animation: fadeIn 2s;
 } */
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,7 +68,7 @@ body {
     margin-bottom: 60px;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 60px;
     font-weight: 400;
@@ -78,7 +78,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 20px;
     font-weight: 500;
@@ -119,7 +119,6 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -156,7 +155,7 @@ body {
     box-shadow: 0 5px 1px rgba(0, 0, 0, .2);
 }
 
-.btn-white {
+.btn--white {
     background-color: #FFF;
     color: #777;
 }
@@ -174,7 +173,7 @@ body {
     transition: all .4s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #FFF;
 }
 
@@ -183,7 +182,7 @@ body {
     opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
