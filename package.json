@@ -1,0 +1,22 @@
+{
+  "name": "technology-template",
+  "version": "1.0.0",
+  "description": "Template for technology websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaschsu/advanced-css.git"
+  },
+  "author": "Tom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaschsu/advanced-css/issues"
+  },
+  "homepage": "https://github.com/thomaschsu/advanced-css#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
