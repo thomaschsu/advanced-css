@@ -327,6 +327,16 @@ body {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 
+.card__side--back-2 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa));
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+.card__side--back-3 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#A5D6A7), to(#388E3C));
+  background-image: linear-gradient(to right bottom, #A5D6A7, #388E3C);
+}
+
 .card:hover .card__side--front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -351,11 +361,13 @@ body {
 }
 
 .card__picture--2 {
-  background-image: url(../../img/nat-6.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa)), url(../../img/nat-6.jpg);
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../../img/nat-6.jpg);
 }
 
 .card__picture--3 {
-  background-image: url(../../img/nat-5.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#A5D6A7), to(#388E3C)), url(../../img/nat-7.jpg);
+  background-image: linear-gradient(to right bottom, #A5D6A7, #388E3C), url(../../img/nat-7.jpg);
 }
 
 .card__heading {
@@ -379,6 +391,16 @@ body {
 .card__heading-span--1 {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 185, 0, 0.85)), to(rgba(255, 119, 48, 0.85)));
   background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+}
+
+.card__heading-span--2 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 152, 255, 0.85)), to(rgba(86, 67, 250, 0.85)));
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+}
+
+.card__heading-span--3 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(165, 214, 167, 0.85)), to(rgba(56, 142, 60, 0.85)));
+  background-image: linear-gradient(to right bottom, rgba(165, 214, 167, 0.85), rgba(56, 142, 60, 0.85));
 }
 
 .card__details {
