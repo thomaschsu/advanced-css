@@ -11,6 +11,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
@@ -136,8 +137,7 @@
         }
         &__details {
             padding: 1rem 3rem;
-        }
-        // Front Side Styling
+        } // Front Side Styling
         &__cta {
             position: relative;
             top: 0%;
